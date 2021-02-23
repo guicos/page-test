@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1280px) {
+    body{
+        font-size: 10pt;
+    }
+    header nav{
+        width: 70%;
+    }   
+    .img-lateral-retangulo{
+        width: 206px;
+        height: 119px;
+    }
+    .section-button{
+        flex-direction: column-reverse;
+        text-align: justify;
+
+    }
+
+    .click-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button{
+        width: 103px;
+        height: 50px;
+        font-size: 10pt;
+    }
+
+    .form-distancia{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 896px) {
+    header{
+        width: 100%;
+    }
+    header img{
+        width: 80px;
+    }
+    .none{
+        display: inline-block;
+    }
+    ul{
+        justify-content: space-evenly;
+    }
+    header nav{
+        width: 20%;
+    }
+    .section-img-circle{
+        justify-content: center;
+    }
+    .img-circle{
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .oval{
+        display: none;
+    }
+    main{
+        flex-direction: column;
+        width: 100%;
+    }
+    #lateral-direito, form, #lateral-direito div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    input, select{
+        width: 300px;
+        height: 20px;
+    }
+    .img-lateral-retangulo{
+        margin: 5px;
+    }
+
+}
+  

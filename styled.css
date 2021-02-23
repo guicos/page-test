@@ -1,0 +1,186 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    background: transparent linear-gradient(180deg, #2A537B 0%, #6D5291 100%) 0% 0% no-repeat padding-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.none{
+    display: none;
+    text-decoration: none;
+    color: black;
+}
+
+header img{
+    width: 10%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 68%;
+    background: #2A6D90;
+    padding: 1%;
+    margin-bottom: 10px;
+}
+
+.oval{
+    border: solid 1px #95c3db;
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+    background: #95c3db;
+    
+}
+
+header nav{
+    width: 50%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+#lateral-direito{
+    width: 30%;
+    margin-left: 10px;
+    background-color: #6d5291;
+    padding: 3%;
+}
+
+.img-lateral-retangulo{
+    border: #fff solid 1px;
+    width: 306px;
+    height: 132px;
+    background: #fff;
+
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #476592;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 2.2%;
+    margin-right: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.distancia{
+    width: 80%;
+}
+
+.section-img-circle{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%
+}
+
+.section-button{
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+    padding-top: 15%;
+}
+
+.click-div{
+    width: 40%;
+}
+
+.Titulo{
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.img-circle{
+    border: #fff solid 1px;
+    border-radius: 100px;
+    width: 68px;
+    height: 68px;
+    background: #fff;
+
+}
+
+.img-quadrado{
+    border: #fff solid 1px;
+    border-radius: 20px;
+    width: 309px;
+    height: 446px;
+    background: #fff;
+}
+
+button{
+    width: 203px;
+    height: 59px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+form{
+    margin-top: 10px;
+    background: #fff;
+    width: 66%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-distancia{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+input, select{
+    border: solid 2px #000;
+    width: 497px;
+    height: 52px;
+    margin: 10px;
+}
+
+.one-div-titulo{
+    width: 100%;
+}
+
+.nav-footer{
+    justify-content: center;
+}
+
+footer{
+    padding: 2%;
+}
