@@ -2,17 +2,24 @@
     body{
         font-size: 10pt;
     }
+    header{
+        justify-content: space-around;
+    }
     header nav{
         width: 70%;
     }   
-    .img-lateral-retangulo{
-        width: 206px;
-        height: 119px;
+    .oval{
+        height: 30px;
+        width: 80px;
     }
     .section-button{
         flex-direction: column-reverse;
         text-align: justify;
 
+    }
+    #lateral-direito{
+        position: relative;
+        bottom: 90px;
     }
 
     .click-div{
@@ -28,12 +35,31 @@
         height: 50px;
         font-size: 10pt;
     }
+    
 
-    .form-distancia{
+    .form-distancia, .form-distancia section{
+        align-items: center;
+    }
+
+    .form-distancia section div{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    .img-lateral-retangulo{
+        width: 270px;    
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    #lateral-direito{
+        bottom: 78px;
+    }
+
+    .img-lateral-retangulo{
+        width: 210px;    
+    }
+
 }
 
 @media only screen and (max-width: 896px) {
@@ -67,18 +93,32 @@
         flex-direction: column;
         width: 100%;
     }
-    #lateral-direito, form, #lateral-direito div{
+    #lateral-direito{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
         width: 100%;
+        position: initial;
     }
+
+    #lateral-direito div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        width: 90%;
+    }
+
+    .img-lateral-retangulo{
+        width: 306px;    
+    }
+
     input, select{
         width: 300px;
         height: 20px;
     }
-    .img-lateral-retangulo{
-        margin: 5px;
+    form{
+        width: 100%;
     }
 
 }
