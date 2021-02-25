@@ -71,7 +71,7 @@ main{
     width: 30%;
     margin-left: 10px;
     background-color: #6d5291;
-    padding: 3.4%;
+    padding: 3%;
 }
 
 .img-side-rectangle{
@@ -193,19 +193,19 @@ label{
 }
 
 #text-label-name{
-    right: 1500px;
+    right: 1300px;
 }
 
 #text-label-cel{
-    right: 1570px;
+    right: 1370px;
 }
 
 #text-label-cpf{
-    right: 1050px;
+    right: 850px;
 }
 
 #text-label-operations{
-    right: 1010px;
+    right: 810px;
 }
 
 input{

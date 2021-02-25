@@ -1,26 +1,51 @@
-@media only screen and (max-width: 2080px){
+@media only screen and (max-width: 1400px){
     #right-side{
         padding: 2%;
     }
 
+    input{
+        width: 405px;
+    }
+
+    .distance{
+        width: 90%;
+    }
+
+    .img-square{
+        width: 265px;
+        height: 425px;
+    }
+
+    .img-side-rectangle{
+        width: 271px
+    }
+
+    #right-side p, .alignment p{
+        font-size: 11pt;
+    }
+
     #text-label-name{
-        right: 1200px;
+        right: 907px;
     }
     
     #text-label-cel{
-        right: 1270px;
+        right: 973px;
     }
     
     #text-label-cpf{
-        right: 750px;
+        right: 556px;
     }
     
     #text-label-operations{
-        right: 710px;
+        right: 513px;
+    }
+
+    .button{
+        left: 387px;
     }
 
 }
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1280px) {
     body{
         font-size: 10pt;
     }
