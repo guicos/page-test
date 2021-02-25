@@ -123,6 +123,7 @@
     }
     form{
         width: 100%;
+        border: Red solid 2px
     }
 
 }
