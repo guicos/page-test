@@ -1,4 +1,26 @@
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 2080px){
+    #right-side{
+        padding: 2%;
+    }
+
+    #text-label-name{
+        right: 1200px;
+    }
+    
+    #text-label-cel{
+        right: 1270px;
+    }
+    
+    #text-label-cpf{
+        right: 750px;
+    }
+    
+    #text-label-operations{
+        right: 710px;
+    }
+
+}
+@media only screen and (max-width: 1380px) {
     body{
         font-size: 10pt;
     }
@@ -17,9 +39,13 @@
         text-align: justify;
 
     }
-    #lateral-direito{
+    #right-side{
         position: relative;
         bottom: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3%;
     }
 
     .click-div{
@@ -37,17 +63,41 @@
     }
     
 
-    .form-distancia, .form-distancia section{
+    .form-distance, .form-distance section{
         align-items: center;
     }
 
-    .form-distancia section div{
-        display: flex;
+    .form-distance section div{
+        align-items: center;
+    }
+
+    .form-distance section{
         flex-direction: column;
         align-items: center;
     }
-    .img-lateral-retangulo{
+
+    .img-side-rectangle{
         width: 270px;    
+    }
+
+    #text-label-name{
+        right: 700px;
+    }
+    
+    #text-label-cel{
+        right: 750px;
+    }
+    
+    #text-label-cpf{
+        right: 750px;
+    }
+    
+    #text-label-operations{
+        right: 750px;
+    }
+
+    .button{
+        left: 220px;
     }
 
     footer{
@@ -57,13 +107,31 @@
 }
 
 @media only screen and (max-width: 1024px){
-    #lateral-direito{
+    #right-side{
         bottom: 78px;
     }
 
-    .img-lateral-retangulo{
+    .img-side-rectangle{
         width: 210px;    
     }
+
+    #text-label-name{
+        right: 600px;
+    }
+    
+    #text-label-cel{
+        right: 650px;
+    }
+    
+    #text-label-cpf{
+        right: 650px;
+    }
+    
+    #text-label-operations{
+        right: 650px;
+    }
+
+    
 
 }
 
@@ -102,15 +170,12 @@
         flex-direction: column;
         width: 100%;
     }
-    #lateral-direito{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    #right-side{
         width: 100%;
         position: static;
     }
 
-    #lateral-direito div{
+    #right-side div{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -118,7 +183,7 @@
         width: 80%;
     }
 
-    .img-lateral-retangulo{
+    .img-side-rectangle{
         width: 306px;    
     }
 
@@ -129,6 +194,46 @@
     form{
         width: 100%;
     }
+
+    #text-label-name{
+        right: 200px;
+    }
+    
+    #text-label-cel{
+        right: 250px;
+    }
+    
+    #text-label-cpf{
+        right: 250px;
+    }
+    
+    #text-label-operations{
+        right: 250px;
+    }
+
+    .button{
+        bottom: 31px;
+        left: 135px;
+    }
+
+    .up-arrow{
+        width: 0; 
+        height: 0; 
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 6px solid #000;
+        margin-bottom: 2px;
+    }
+    
+    .down-arrow{
+        width: 0; 
+        height: 0; 
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #000;
+        margin-top: 2px;
+    }
+
 
 }
   
